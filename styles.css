@@ -52,7 +52,7 @@ li {
 }
 
 .hero-image {
- background-image: url("assets/heroimage.jpeg");
+ background-image: url("assets/heroimage-min.jpeg");
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
