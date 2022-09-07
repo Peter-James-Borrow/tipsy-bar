@@ -24,6 +24,7 @@ h3{
 h4 {
     color: #000000;
     font-family: 'open sans', sans-serif;
+    
 }
 
 .header {
@@ -51,6 +52,10 @@ a:hover {
 
 li {
     list-style: none;
+}
+
+img {
+    background-color: #f8f8f8;
 }
 
 .navigation-headings {
@@ -134,7 +139,6 @@ p{
 
 .footer-container-main {
     border-top: 1px white solid;
-    height: 400px;
     display: flex;
     justify-content: space-evenly;
     padding: 16px;
@@ -145,6 +149,23 @@ p{
     width: 100%;
     padding: 25px;
 }
+
+.site-map-section.cocktail-section, a{
+    display:flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    padding: 16px;
+}
+
+.site-map-section.cocktail-section, a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+
 
 .follow-us-heading {
     width: 100%;
