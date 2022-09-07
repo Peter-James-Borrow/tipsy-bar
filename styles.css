@@ -18,14 +18,23 @@ h3{
     color:#ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size:24px;
+    padding-top: 24px;
+    text-align: center;
     
 }
 
 h4 {
     color: #000000;
     font-family: 'open sans', sans-serif;
-    
+    padding-top: 16px;
 }
+
+p{
+    color: #ffffff;
+    padding:64px;
+    font-size: 16px;
+}
+    
 
 .header {
     align-items: center;
@@ -37,6 +46,10 @@ h4 {
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+
+.anchor {
+    margin-right: 60px;
 }
 
 a {
@@ -83,6 +96,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+text-transform: capitalize;
 }
 
 .menu-btn {
@@ -131,15 +145,28 @@ transform: translate(-50%, -50%);
     
 }
 
-p{
-    color: #ffffff;
-    padding:24px;
-    font-size: 16px;
+.gallery-container {
+    align-items: center;
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+} 
+
+.gallery-image:hover {
+    
+}
+
+.gallery-image {
+    height: 250px;
+    width: 100%;
 }
 
 .footer-container-main {
-    border-top: 1px white solid;
+    border-top: 1px #000000 solid;
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
     padding: 16px;
     background-color: #f8f8f8;
@@ -150,32 +177,37 @@ p{
     padding: 25px;
 }
 
-.site-map-section.cocktail-section, a{
+.site-map-section.cocktail-section.contact-details-section, a{
     display:flex;
     flex-direction: column;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     padding: 16px;
 }
 
 .site-map-section.cocktail-section, a:hover {
     text-decoration: underline;
-
 }
 
+.phone-number,.email,.location {
+    display: flex;
+}
 
+.address {
+    padding: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+}
 
+.follow-us-container {
+    margin-left: 140px;
 
-
-.follow-us-heading {
-    width: 100%;
-    margin-left: 118px;
 }
 
 .social-icon {
     width: 32px;
-    margin-left: 40px;
-   
+    margin-left: 25px;
 }
 
 .footer-lower-section {
@@ -184,6 +216,16 @@ p{
     align-items: flex-end;
     border-top: 1px solid #949494;
     width: 100%;
+}
+
+.copyright {
+    height: fit-content;
+}
+.copyright-text {
+    color:#000000;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
